@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="Mustard"
+            android:textColor="@color/mustard"
             android:text="@string/movies"
             android:textAllCaps="true"
             android:fontFamily="sans-serif-condensed"
@@ -58,7 +58,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="Mustard"
+            android:textColor="@color/mustard"
             android:text="@string/series"
             android:textAllCaps="true"
             android:fontFamily="sans-serif-condensed"
