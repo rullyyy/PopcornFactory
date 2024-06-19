@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PopcornFactory"
         tools:targetApi="31">
         <activity
+            android:name=".SeatSelection"
+            android:exported="false" />
+        <activity
             android:name=".MovieDetail"
             android:exported="false" />
         <activity

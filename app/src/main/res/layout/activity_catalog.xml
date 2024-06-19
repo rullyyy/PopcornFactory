@@ -43,41 +43,5 @@
         android:paddingHorizontal="6dp"
         />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <View
-            android:layout_width="250dp"
-            android:layout_height="2dp"
-            android:background="@color/mustard"
-            android:layout_marginHorizontal="15dp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/mustard"
-            android:text="@string/series"
-            android:textAllCaps="true"
-            android:fontFamily="sans-serif-condensed"
-            android:textStyle="bold"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:textSize="20sp"/>
-
-
-
-    </LinearLayout>
-
-    <GridView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:numColumns="3"
-        android:id="@+id/series_catalog"
-        android:paddingHorizontal="6dp"
-        />
-
 
 </LinearLayout>

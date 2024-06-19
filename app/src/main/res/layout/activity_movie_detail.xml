@@ -65,6 +65,26 @@
             android:id="@+id/movie_desc"/>
     </LinearLayout>
 
+    <Button
+        android:id="@+id/buyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:paddingHorizontal="@dimen/paddingButton"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightgray"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:id="@+id/seatsLeft"
+        />
 
 
 </LinearLayout>
